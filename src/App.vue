@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Counter/>
+  <Posts/>
 </template>
 
 <script>
-import Counter from './components/Counter.vue'
+import Posts from './components/Posts.vue'
 
 export default {
   name: 'App',
   components: {
-    Counter
+    Posts
   }
 }
 </script>
@@ -22,5 +21,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  padding: 10px;
 }
 </style>
